@@ -42,7 +42,7 @@
 
  function getWeatherData() {
 
-     fetch(`http://api.weatherapi.com/v1/current.json?key=4f46346cace64259af5195730221407&q=${cityInput}&aqi=no`)
+     fetch(`https://api.weatherapi.com/v1/current.json?key=4f46346cace64259af5195730221407&q=${cityInput}&aqi=no`)
          .then(res => res.json()).then(data => {
              console.log(data)
                  //lets start by adding the temperature and weather data  

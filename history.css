@@ -12,7 +12,7 @@
 }
 
 .current-data {
-    height: 400px;
+    height: 350px;
     backdrop-filter: blur(10px);
     display: block;
     text-align: center;
@@ -161,16 +161,43 @@
         justify-content: space-around;
         margin-top: 30px;
         color: white;
+        padding-left: 20px;
     }
 
     .weather-forcast-item {
         border: 20px;
         border-radius: 10px;
         background-color: rgba(10, 9, 11, 0.266);
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 180px;
         text-align: center;
         padding-left: 20px;
+    }
+    .day {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    
+    .day1 {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    
+    .day2 {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    
+    .temper {
+        font-size: 17px;
+    }
+    
+    .temper1 {
+        font-size: 17px;
+    }
+    
+    .temper2 {
+        font-size: 17px;
     }
     
     
