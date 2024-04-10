@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Jost:wght@300&display=swap');
+* {
+    font-family: 'Jost', sans-serif;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(./images/cloudy3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.current-data {
+    height: 400px;
+    backdrop-filter: blur(10px);
+    display: block;
+    text-align: center;
+}
+
+.title-forcast {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin-right: 30%;
+    display: flex;
+}
+
+.form {
+    margin-left: 90%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.btn-search {
+    border-radius: 30px;
+    background-color: transparent;
+    border-color: white;
+    color: rgba(255, 255, 255, 0.89);
+    margin-left: 40px;
+    font-size: 20px;
+    box-shadow: none;
+    text-align: center;
+}
+
+.btn-search::placeholder {
+    color: white;
+    text-align: center;
+}
+
+.btn-search:hover {
+    background-color: rgba(240, 237, 236, 0.603);
+    transition: 0.8s;
+    color: black;
+}
+
+.btn-search:hover::placeholder {
+    color: black;
+}
+
+.submit {
+    background: transparent;
+    border: none;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: transparent;
+    border: none;
+}
+
+.btn:focus {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.btn:active {
+    background: white;
+    border: none;
+    border-radius: 0%;
+    box-shadow: none;
+}
+
+.fa-magnifying-glass {
+    color: white;
+}
+
+.cityname {
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.temperature {
+    font-size: 90px;
+    color: white;
+    width: 40%;
+    margin-top: 15px;
+    margin-left: 30%;
+}
+
+.condition-now {
+    font-size: 30px;
+    color: white;
+}
+
+.condition-title {
+    font-size: 30px;
+    color: white;
+}
+
+.weather-forcast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: white;
+}
+
+.weather-forcast-item {
+    border: 20px;
+    border-radius: 10px;
+    background-color: rgba(10, 9, 11, 0.266);
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+.day {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.day1 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.day2 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.temper {
+    font-size: 20px;
+}
+
+.temper1 {
+    font-size: 20px;
+}
+
+.temper2 {
+    font-size: 20px;
+}
+
+@media only screen and (max-width:820px){
+    .weather-forcast {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 30px;
+        color: white;
+    }
+
+    .weather-forcast-item {
+        border: 20px;
+        border-radius: 10px;
+        background-color: rgba(10, 9, 11, 0.266);
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        padding-left: 20px;
+    }
+    
+    
+}
