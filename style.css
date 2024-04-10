@@ -251,6 +251,7 @@ nav ul li a:hover {
     #hero {
         width: 100vw;
         height: 100vh;
+        position: fixed;
     }
     .btn-search {
         width: 100px;
