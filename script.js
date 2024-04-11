@@ -29,7 +29,7 @@
  var topNav = document.getElementById("myTopnav");
  //const searchValue = search.value;
  //defaut page when the page loads 
- let cityInput = "nairobi";
+ let cityInput = "Nairobi";
 
 
  //add submit event to the form 
@@ -165,6 +165,8 @@
 
 
  }
+
+ document.onload(getWeatherData())
  getWeatherData();
 
  buttonNav.addEventListener('click',
