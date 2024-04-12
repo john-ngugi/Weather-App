@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
+    position: fixed;
 }
 
 .current-data {
@@ -26,6 +27,7 @@
     display: flex;
 }
 
+
 .form {
     margin-left: 90%;
     display: flex;
@@ -38,7 +40,7 @@
     border-color: white;
     color: rgba(255, 255, 255, 0.89);
     margin-left: 40px;
-    font-size: 20px;
+    font-size: 15px;
     box-shadow: none;
     text-align: center;
 }
@@ -91,10 +93,11 @@
     color: white;
     font-size: 40px;
     text-transform: capitalize;
+    margin-top: 20px;
 }
 
 .temperature {
-    font-size: 90px;
+    font-size: 80px;
     color: white;
     width: 40%;
     margin-top: 15px;
@@ -102,13 +105,14 @@
 }
 
 .condition-now {
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 }
 
 .condition-title {
     font-size: 30px;
     color: white;
+    
 }
 
 .weather-forcast {
@@ -161,7 +165,9 @@
         justify-content: space-around;
         margin-top: 30px;
         color: white;
-        padding-left: 20px;
+        padding-left: 10%;
+        overflow:scroll;
+        height:50vh;
     }
 
     .weather-forcast-item {
@@ -169,9 +175,10 @@
         border-radius: 10px;
         background-color: rgba(10, 9, 11, 0.266);
         width: 300px;
-        height: 180px;
+        height: 200px;
         text-align: center;
         padding-left: 20px;
+        margin-top: 20px;
     }
     .day {
         margin-top: 10px;
@@ -200,5 +207,37 @@
         font-size: 17px;
     }
     
+    .btn-search {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 0px;
+        background-color: transparent;
+        border-color: rgb(168, 163, 163);
+        color: rgba(255, 255, 255, 0.89);
+        margin-left: 40px;
+        font-size: 15px;
+        box-shadow: none;
+        text-align: center;
+        width: 90%;
+    }
     
+    .form {
+        margin-left: 0%;
+        display: flex;
+        
+        margin-top: 10px;
+        width: 100vw;
+    }
+    .title-forcast h1{
+        font-size: 20px;
+        text-align: start;
+        padding-left: 10px;
+        width: 100vw;
+    }
+
+    .title-forcast{
+        display: flex;
+        flex-direction: column;
+    }
 }

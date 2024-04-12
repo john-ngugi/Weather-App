@@ -550,16 +550,17 @@ nav ul li a:hover {
         padding: 0px 12px;
     }
     .btn-search {
-        width: 200px;
+        width: 100px;
         border-radius: 30px;
         background-color: transparent;
         border-color: white;
         color: black;
         margin-top: 70px;
-        margin-left: 20px;
+        margin-left: 10px;
         font-size: 25px;
         box-shadow: none;
         text-align: center;
+        width: 40%;
     }
     .button-nav {
         background-color: transparent;

@@ -166,7 +166,7 @@
 
  }
 
- document.onload(getWeatherData())
+
  getWeatherData();
 
  buttonNav.addEventListener('click',
@@ -181,3 +181,5 @@
              topNav.classList.add("current-nav");
          }
      })
+
+document.onload(getWeatherData())     
